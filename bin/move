@@ -11,4 +11,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 display_board(board)
 decision = gets.strip
-input_to_index(decision)
+decision = input_to_index(decision)
+
+move(board, index)
+
+display_board(board)
